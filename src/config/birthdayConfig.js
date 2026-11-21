@@ -7,7 +7,7 @@ export const config = {
   sender: "Ahmed",
   song: { title: "Tere Sang Yaara", artist: "Atif Aslam" },
   // Optional local audio: put file in public/audio/ . Set to "" to disable.
-  localAudioFile: "/audio/tere-sang-yaara.mp3",
+  localAudioFile: `${import.meta.env.BASE_URL}audio/tere-sang-yaara.mp3`,
   // Used when there is no (or a broken) local file. Opens in a new tab.
   musicUrl: "https://open.spotify.com/search/Tere%20Sang%20Yaara%20Atif%20Aslam",
   colors: { midnight: "#0b1030", pink: "#e8b4c4", lavender: "#b9a7e8", gold: "#e6c98f", ivory: "#fbf5ea" },
